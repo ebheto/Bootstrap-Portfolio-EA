@@ -1,0 +1,30 @@
+/*VARIABLES*/
+:root {
+    --primary-color: rgb(14, 24, 24);
+    --secondary-color: rgb(145, 144, 140);
+    --highlight-color: rgb(234, 31, 73);
+  }
+  
+  /*RESETS*/
+  * {
+      padding: 0;
+      margin: 0;
+      border: 0;
+      box-sizing: border-box
+    }
+  
+    body {
+      font-family: 'Mukta', sans-serif;
+      line-height: 1.5;
+    }
+  
+  
+  
+  
+  .signUp {
+    margin: 35px auto;
+    background-color: #f2f2f2;
+    padding: 25px;
+    border-radius: 7px;
+  }
+  

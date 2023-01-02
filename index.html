@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb">
     <head>
-
         <!-- required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +8,10 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- custom CSS -->
-        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a7650f5440.js" crossorigin="anonymous"></script>
         <title>Bootstrap-Portfolio - EA</title>
     </head>
 
@@ -46,15 +48,27 @@
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </div>
 
-          <!-- Projects section Title-->
-          <p class="h2 text-center pt-5" id="projects">Projects</p>
-          <p class="underline my-4"></p>
-    
+          <!-- Projects section Title -->
+          <p class="h3 text-center pt-5" id="projects">Projects</p>
+
+          <!-- Project section content -->
         <div class="container-fluid">
             <div class="row">
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+
+                <div class="card col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/pramod-tiwari-k0lTVz7i5TI-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5> 
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="card col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/markus-spiske-EZZXV_dXLy4-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -62,19 +76,10 @@
                         </div>
                       </div>
                 </div>
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+
+                <div class="card col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="images/mehmet-turgut-kirkgoz-cnvhMZ81p6s-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -84,6 +89,63 @@
                 </div>
             </div> 
         </div>
+
+        <!-- Resume section-->
+        <p class="h3 text-center pt-5" id="resume">Resume/Skills</p>
+        
+        <!--Resume section content-->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <i class="fa-brands fa-html5"></i>
+                    <p class="h5">Languages</p>
+                    <p class="text-muted">HTML5, CSS3, Javascript</p>
+                </div> 
+
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <i class="fa-solid fa-lines-leaning"></i>
+                    <p class="h5">Design</p>
+                    <p class="text-muted">Accessible, Adaptive, Responsive</p>
+                </div> 
+            </div>
+        </section>
+
+        <!-- Contact section title-->
+        <p class="h3 text-center pt-5" id="contact">Contact</p>
+
+        <section class="contact">
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="https://www.google.com/maps/place/Birmingham/@52.4974751,-2.0040584,11z/data=!3m1!4b1!4m5!3m4!1s0x4870942d1b417173:0xca81fef0aeee7998!8m2!3d52.486243!4d-1.890401" target="_blank">Birmingham, UK</a>
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <a href="mailto:ebhetome@protonmail.com" target="_blank">ebhetome@protonmail.com</a> 
+            </p>
+            <p>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://uk.linkedin.com/" target="_blank">uk.linkedin.com</a>
+            </p>
+            <p>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/ebheto" target="_blank">github.com/ebheto</a>
+            </p>
+        </section>
+
+        <!--contact section content-->
+            <div class="container-fluid signUp">
+                <div class="row">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                      </form>
+                </div>
+            </div>
+
+
 
         <!-- Additional JS -->
         <!-- JQuery first, followed by Popper.js, then Bootstrap JS -->
