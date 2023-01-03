@@ -18,8 +18,28 @@
       line-height: 1.5;
     }
   
-  
-  
+.jumbotron {
+  background-image: url(/images/IMG_0572.JPG);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.jumboCopy {
+  width: 40%;
+  min-width: 500px;
+  max-width: 700px;
+  text-align: center;
+}
+
+
+  .contact {
+    text-align: center;
+  }
   
   .signUp {
     margin: 35px auto;
